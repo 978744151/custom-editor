@@ -1,0 +1,89 @@
+.act-img-config {
+    padding: 0 10px;
+    padding-bottom: 80px;
+
+    &-title {
+        font-size: 14px;
+        font-weight: Regular;
+        text-align: left;
+        color: #303133;
+    }
+
+    &-field {
+        background: #f0f9eb;
+        border-radius: 4px;
+        padding: 15px 15px 1px 15px;
+    }
+
+    &-ad {
+        background: #f2f6fc;
+        border-radius: 4px;
+        padding: 15px 15px 1px 15px;
+
+    }
+
+    ::v-deep .avatar-uploader .el-upload {
+        border: 1px dashed #DCDFE6;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+    }
+
+    ::v-deep .avatar-uploader .el-upload:hover {
+        border-color: #409EFF;
+    }
+
+    ::v-deep .el-upload--picture-card {
+        font-size: 20px;
+        color: #8c939d;
+        width: 56px;
+        height: 56px;
+        line-height: 56px;
+        text-align: center;
+    }
+
+    ::v-deep .avue-upload {
+        width: 56px;
+        height: 56px;
+        display: block;
+    }
+
+    ::v-deep .el-icon-plus {
+        font-size: 20px;
+    }
+
+    &-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-absolute {
+        width: 420px;
+        height: 40px;
+        background: #ffffff;
+        border: 1px solid #409eff;
+        border-radius: 4px;
+        margin: 15px 0px;
+        font-size: 14px;
+        font-family: Source Han Sans CN, Source Han Sans CN-Regular;
+        font-weight: Regular;
+        text-align: left;
+        color: #409eff;
+        line-height: 40px;
+        text-align: center;
+        cursor: pointer;
+        position: fixed;
+        bottom: 0;
+        z-index: 99;
+
+        .el-icon-plus {
+            font-size: 12px;
+        }
+    }
+
+    .unit {
+        margin-left: 8px;
+        color: #909399;
+    }
+}
